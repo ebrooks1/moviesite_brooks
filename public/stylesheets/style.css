@@ -1,0 +1,101 @@
+body {
+	background-color: #232323;
+	background-image: url("../images/diatext.png");
+	background-repeat: repeat;
+}
+
+header {
+	width: 100%;
+	float: left;
+	background-color: #111111;
+}
+
+#logo {
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 800;
+	font-size: 2em;
+	margin-left: 1em;
+	margin-top: -1em;
+	padding-bottom: .3em;
+	color: #fff;
+}
+
+#menu {
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	margin-top: -6em;
+	text-align: right;
+
+}
+
+#menu ul li {
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 1em;
+	color: #fff;
+}
+
+#moviecontent {
+	margin: 0 auto;
+	display: block;
+}
+
+.conbox {
+	background-color: #191919;
+	width: 20em;
+	float: left;
+	margin: 1em .5em 1em .5em;
+}
+
+.conbox h2 {
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 800;
+	font-size: 1.5em;
+	margin-bottom: -1em;
+	margin-top: -.1em;
+	margin-left: .2em;
+	color: #fff;
+}
+
+.conbox p {
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	height: 3em;
+	margin-left: .2em;
+	margin-right: .2em;
+	color: #fff;
+}
+
+.imgbox {
+	background-color: blue;
+	height: 10em;
+}
+
+footer {
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	background-color: #111111;
+	width: 100%;
+	float: left;
+}
+
+footer ul li {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 2em;
+}
+
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
