@@ -47,6 +47,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// Runs the server log in terminal
 app.listen(5050, ()=>{
   console.log('app running on port 5050');
 });

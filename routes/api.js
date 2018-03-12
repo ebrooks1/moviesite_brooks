@@ -43,4 +43,17 @@ router.post('/', (req, res) => {
   })
 });
 
+//this gathers the movie titles from the movies table and puts it into the data variable.
+router.delete('/:id', (req, res) => {
+  console.log('got info from data', req.params.id);
+  connect.query(`SELECT * FROM tbl_movies WHERE movie_title="${req.params.id}"`, (err, result) => {
+  if (err) {
+      throw err;
+    } else {
+      console.log(result);
+      res.json(result); //send back whatever the result is (probs an SQL message)
+    }
+  });
+});
+
 module.exports = router;

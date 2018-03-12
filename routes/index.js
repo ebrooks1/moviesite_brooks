@@ -12,10 +12,16 @@ router.get('/', function(req, res, next) {
 
       res.render('home', {
         data = result;
+        connect.query(`SELECT * FROM tbl_movies`, (err, result) => {
+          if (err) {
+            console.log(err);
+          } else {
+            console.log(result);
+        //THIS is getting the data from the tbl_movies database and putting it in the data variable.
       }); //this is like a PHP echo
     }
   });
-  //were not using this yet!!
+  //were not using this yet!! //this is on monday's class!!!
 });
 
 router.get('/cms', (req, res) =>  {
