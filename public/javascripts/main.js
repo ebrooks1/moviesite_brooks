@@ -30,7 +30,7 @@
     });
   }
 
-
+//these are the event listerns
   getButton.forEach(button => button.addEventListener('click', getData));
   deleteButton.addEventListener('click', deleteARecord);
 })();

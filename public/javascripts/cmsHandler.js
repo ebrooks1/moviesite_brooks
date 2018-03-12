@@ -19,6 +19,8 @@
       strData[key] = value;
     }
 
+
+    //fetch section
     //run a fetch and do a post
     let url = "/api";
 
